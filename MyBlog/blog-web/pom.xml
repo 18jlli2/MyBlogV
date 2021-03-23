@@ -16,12 +16,22 @@
             <groupId>com.myblog</groupId>
             <artifactId>blog-service</artifactId>
             <version>1.0</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.myblog</groupId>
             <artifactId>blog-api</artifactId>
             <version>1.0</version>
+            <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.myblog</groupId>
+            <artifactId>blog-common</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+
 
     </dependencies>
 </project>
