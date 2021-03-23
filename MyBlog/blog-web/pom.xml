@@ -11,9 +11,17 @@
 
     <artifactId>blog-web</artifactId>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.myblog</groupId>
+            <artifactId>blog-service</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.myblog</groupId>
+            <artifactId>blog-api</artifactId>
+            <version>1.0</version>
+        </dependency>
 
+    </dependencies>
 </project>
